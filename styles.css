@@ -1,0 +1,136 @@
+body{
+  color:#40514E;
+  margin: 0;
+  text-align: center; /* used to centre the text*/
+  font-family: 'Merriweather',serif;
+}
+
+
+
+
+
+h1{
+  font-family: 'Sacramento',cursive;
+  font-size: 100px;    /*16px=100%=1em*/
+  margin:0 auto 0 auto;/* margin: top ,right, bottom, left used to centre the text*/
+  margin-top: 50px;
+  color: #66BFBF; /*challenge 1*/
+  line-height: 2; /*challenge 3*/
+}
+
+h2{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2.5rem;
+  margin-right: 0;
+  color: #66BFBF; /*challenge 1*/
+   /*challenge2*/
+}
+
+
+
+h3{
+
+    font-family: 'Montserrat',sans-serif;
+    color: #66BFBF; /*challenge 1*/
+  }
+
+  h4{
+    color:gold;
+  }
+
+
+div{
+  background-color: powderblue;
+  position: relative;
+
+}
+
+.top-container{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bottom-container{
+  background-color: black;
+  padding: 50px 0 20px;
+}
+
+
+
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom:300px;
+}
+
+.top-cloud{
+  position:absolute;
+  right: 300px;
+  top: 40px;
+
+}
+
+.My-Photo{
+  width: 20%;
+  border-radius: 100%
+}
+
+.computer-image{
+  width:25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.hot-wings{
+ width:25%;
+
+  float:right;
+  margin-left: 30px
+}
+
+
+  .btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999A);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999A);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999A);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999A);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999A);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family:'Montserrat',sans-serif ;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 100px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+
+
+
+.footer-link{
+  color: #66BFBF; /*challenge 1*/
+  margin-top: 50PX;
+}
+
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+a:hover{
+  color:gold;
+}
